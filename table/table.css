@@ -1,0 +1,45 @@
+/**
+table-layout
+ */
+
+.table {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 2px solid red
+}
+
+.table-layout-auto {
+    table-layout: auto;
+}
+
+.table-layout-fixed {
+    table-layout: fixed;
+}
+
+.table-layout-fixed td:first-child {
+    width: 50px
+}
+
+.table-layout-fixed td:nth-child(2) {
+    width: 100px
+}
+
+.table-layout-fixed td:last-child {
+    width: 80px
+}
+
+/**
+table-border
+ */
+.table-border-separate {
+    border: 2px solid blue;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.table-border-separate th, .table-border-separate td {
+    border: 2px solid green;
+}
